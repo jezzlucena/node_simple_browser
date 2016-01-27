@@ -4,6 +4,12 @@ We'll implement the code for a remote file browsing API that allows listing file
 in directories and getting some metadata about them.
 We don't want to get the contents but only browse around folders.
 
+Submit the finished code to us, for example using a public GitHub repo, a Cloud9
+workspace, or similar.
+
+Include a short note. In the note you should tell us what we should
+look for in your submission, what you are the most proud of in the implementation and
+what you wanted to have done better.
 
 ## Step 1
 
@@ -15,7 +21,7 @@ Use restify/express to implement a Rest API server that:
 
 
 ### Bonus
-(not to be fully implemented, but consider to refactor previous code or provida a stub)
+(not to be fully implemented, but consider to refactor previous code or provide a stub)
 
 To make it better, you can consider things like:
  * tests
@@ -30,4 +36,4 @@ Implement API client.
 
 Use any framework/library (vanilla, react, angular, ...) to implement a HTML/Javascript client for the Step 1 rest API.
 
-
+![example screen shot](/client_example.jpg?raw=true)
