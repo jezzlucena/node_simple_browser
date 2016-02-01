@@ -5,3 +5,8 @@ Please follow the instructions given in the file specific to the test problem yo
 
 1. [File Browser](js_file_browser.md)
 2. ...
+
+# Completing the Test
+
+Complete the test in the allotted time.
+Send an email to your reviwer @starbreeze.com to signal that you are done.
