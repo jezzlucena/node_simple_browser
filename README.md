@@ -10,4 +10,4 @@ Please follow the instructions given in the file specific to the test problem yo
 
 Complete the test in the allotted time.
 
-Send an email to your reviwer @starbreeze.com to signal that you are done.
+Send an email to your reviewer @starbreeze.com to signal that you are done.
