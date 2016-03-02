@@ -18,10 +18,13 @@ Implement API server.
 
 Choose any library (restify/express/loopback/...) to implement a **Rest** API server that:
  * list files and directories underneath a base local path (for example /home/john/test)
+
    _ls_ equivalent
  * allow going into subdirectories
+
    _cd_ equivalent
  * get metadata (size, type, modification date, ...) about a requested file
+ 
    _stat_ equivalent
 
 
