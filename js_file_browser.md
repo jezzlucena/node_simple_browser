@@ -43,3 +43,7 @@ Implement API client.
 Use any framework/library (vanilla, react, angular, ...) to implement a HTML/Javascript client for the Step 1 rest API.
 
 ![example screen shot](/client_example.jpg?raw=true)
+
+## Time Limit
+
+This test must be completed in 2 hours.
