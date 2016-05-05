@@ -17,11 +17,11 @@ what you wanted to have done better.
 Implement API server.
 
 Choose any library (restify/express/loopback/...) to implement a **REST** API server that:
- * list files and directories underneath a base local path (for example /home/john/test), this local path can be hard coded.
+ * list files and directories underneath a base local path (for example _/home/john/test_), this local path can be hard coded.
  
  * get metadata (size, type, modification date, ...) about a requested file
  
- * accept subdirectories (for example {base_path}/feline/cats or {base_path}/feline/cats/black_cat.jpg)
+ * accept subdirectories (for example _{base_path}/feline/cats_ or _{base_path}/feline/cats/black_cat.jpg_)
 
 
 ### Bonus
