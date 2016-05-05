@@ -17,15 +17,11 @@ what you wanted to have done better.
 Implement API server.
 
 Choose any library (restify/express/loopback/...) to implement a **REST** API server that:
- * list files and directories underneath a base local path (for example /home/john/test)
-
-   _ls_ equivalent
- * allow going into subdirectories
-
-   _cd_ equivalent
+ * list files and directories underneath a base local path (for example /home/john/test), this local path can be hard coded.
+ 
  * get metadata (size, type, modification date, ...) about a requested file
  
-   _stat_ equivalent
+ * accept subdirectories (for example {base_path}/feline/cats or {base_path}/feline/cats/black_cat.jpg)
 
 
 ### Bonus
@@ -35,7 +31,7 @@ To make it better, you can consider things like:
  * how can we add API calls to configure the base local path ?
    (not to be fully implemented, but consider to refactor previous code or provide a stub)
  * In the future, instead of browsing only local files we want to browse some
-   remote files (Google Drive, Dropbox). How can we integrate those services
+   remote files (think Google Drive or Dropbox). How can we integrate those services
    behind our API ?
    (not to be implemented, instead explain how to evolve the chosen design)
 
