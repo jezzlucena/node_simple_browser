@@ -1,6 +1,6 @@
 {
-  "name": "simple-messenger",
-  "description": "Simple Messenger Application",
+  "name": "node_simple_browser",
+  "description": "Simple File Browser - by Jezz Lucena",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
