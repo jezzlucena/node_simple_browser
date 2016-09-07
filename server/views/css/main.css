@@ -1,0 +1,80 @@
+html, body {
+  font-family: Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+a {color:#0000FF;}      /* unvisited link */
+a:visited {color:#0000FF;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+.app {
+  height: 100%;
+}
+
+.browser-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+  display: none;
+}
+
+.browser {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+}
+
+  .browser .header{
+    text-align: center;
+  }
+    .browser .header .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .browser .header .subtitle {
+      font-size: 10px;
+      color: #999;
+    }
+
+  .browser .entries {
+    margin-bottom: 20px;
+    flex-grow: 1;
+    overflow: auto;
+  }
+    .browser .entries .entry {
+      margin-bottom: 10px;
+    }
+      .browser .entries .entry.template {
+        display: none;
+      }
+      .browser .entries .entry .user-name {
+        font-weight: bold;
+      }
+      .browser .entries .entry .content {
+      }
+
+    .browser .send-btn {
+      display: inline-block;
+      font-size: 10px;
+      padding: 5px 10px;
+      border: 1px solid black;
+      background-color: white;
+      cursor: pointer;
+      transition: 0.5s background-color ease;
+    }
+      .browser .send-btn:hover {
+        background-color: #ddd;
+      }
